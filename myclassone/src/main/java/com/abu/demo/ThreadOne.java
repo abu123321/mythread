@@ -8,6 +8,7 @@ public class ThreadOne {
 
         new Thread(()->{
             System.out.println("启动了02");
+            System.out.println("fdsf");
         },"threadOne").start();
 
     }
